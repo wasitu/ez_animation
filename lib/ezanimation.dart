@@ -44,6 +44,7 @@ class EzAnimation extends Listenable {
   /// AnimationController to control the resultant animations
   /// Making a custom implementation of how tickers function internally was unnecessary
   AnimationController _controller;
+  AnimationController get controller => _controller;
 
   /// The animation that the user ultimately needs
   Animation _resultAnimation;
